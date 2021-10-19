@@ -37,4 +37,10 @@ hsoup = bs(hemis_html, 'html.parser')
 hemis_image_url = 'https://marshemispheres.com/'
 browser.visit(hemis_image_url)
 
+dictionary = {'news_title': news_title,
+                'featured_img_url': featured_image_url,
+                'fact_table': fact_table,
+                'hemis_html': hemis_html,
+                'hemis_image_url': hemis_image_url}
 
+return dictionary                
